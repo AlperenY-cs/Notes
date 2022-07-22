@@ -75,3 +75,7 @@ find / -type f -perm -4000 2>/dev/null
 find / -type f -user [user] -name "*file*" 2>/dev/null
 ```
 
+```
+find / -uid 0 -perm -4000 -type f 2>/dev/null
+```
+

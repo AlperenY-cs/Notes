@@ -78,4 +78,21 @@ find / -type f -user [user] -name "*file*" 2>/dev/null
 ```
 find / -uid 0 -perm -4000 -type f 2>/dev/null
 ```
+### Command Examples
+Commands to try
 
+Linux
+
+    - whoami
+    - id
+    - ifconfig/ip addr
+    - uname -a
+    - ps -ef
+    
+Windows
+
+    - whoami
+    - ver
+    - ipconfig
+    - tasklist
+    - netstat -an

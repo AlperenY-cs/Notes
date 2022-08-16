@@ -61,6 +61,12 @@ hydra -l admin -P /usr/share/wordlists/rockyou.txt [ip] http-post-form "/admin/:
 hydra -l [user] -P [wordlist] [ip] [attack port/service]
 ```
 
+### WFuzz
+```
+wfuzz -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u 'http://host' -H 'Host:FUZZ.host' --hw 13 
+
+```
+
 ### Capabilities 
 ```
 getcap -r / 2>/dev/null

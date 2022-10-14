@@ -139,3 +139,5 @@ user@tryhackme$ ffuf -w valid_usernames.txt:W1,/usr/share/wordlists/SecLists/Pas
 --satır sayısı
 wc -c 
 
+ -- ftpden uygun verileri indirme
+ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136

@@ -140,4 +140,14 @@ user@tryhackme$ ffuf -w valid_usernames.txt:W1,/usr/share/wordlists/SecLists/Pas
 wc -c 
 
  -- ftpden uygun verileri indirme
- wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
+ wget -m --no-passive ftp://anonymous:anonymous@1.1.1.1
+ 
+ -- mount nfs
+ showmount -e 1.1.1.1
+ 
+ sudo mount -t nfs 1.1.1.1:/mnt/nfsshare /home/kali/target-NFS
+ 
+ sudo umount /home/kali/target-NFS
+
+
+ 

@@ -149,5 +149,7 @@ wc -c
  
  sudo umount /home/kali/target-NFS
 
+ -- php upload form
+ https://blog.filestack.com/thoughts-and-knowledge/php-file-upload/#1_The_HTML_Form
 
  
